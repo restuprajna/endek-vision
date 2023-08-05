@@ -1,6 +1,6 @@
 # endek_vision_app
 
-A new Flutter project.
+Flutter App with Machine Learning Model for Image Recognition to identify Balinese Endek Fabric
 
 ## Getting Started
 
