@@ -1,3 +1,3 @@
 # endek-vision
-demo aplikasi s.id/DemoEndekVision
-[demo aplikas](s.id/DemoEndekVision)
+
+Endek Vision Demo [click here](https://www.youtube.com/watch?v=jmW2Vx81aC0)
