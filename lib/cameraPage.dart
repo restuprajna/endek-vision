@@ -2,6 +2,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
+// import 'package:tflite_flutter/tflite_flutter.dart';
 import 'package:tflite/tflite.dart';
 
 class Camera extends StatefulWidget {
@@ -29,6 +30,11 @@ class _CameraState extends State<Camera> {
       labels: 'assets/labels.txt',
     );
   }
+
+  // new way to load model and labels
+  // Future<void> loadLabels() async {
+  //   labels = await File
+  // }
 
   Future<void> _chooseImage(ImageSource source) async {
     final pickedImage = await ImagePicker().pickImage(source: source);
@@ -102,13 +108,10 @@ class _CameraState extends State<Camera> {
                   backgroundColor: const Color(0xffc07f00),
                   foregroundColor: Colors.white,
                   textStyle: const TextStyle(fontSize: 20)),
-              child: Row(
+              child: const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
-                  children: const [
-                    Icon(Icons.add_a_photo),
-                    Text("Open Camera")
-                  ]),
+                  children: [Icon(Icons.add_a_photo), Text("Open Camera")]),
             ),
             const SizedBox(
               height: 30,
@@ -123,10 +126,10 @@ class _CameraState extends State<Camera> {
                   backgroundColor: const Color(0xffc07f00),
                   foregroundColor: Colors.white,
                   textStyle: const TextStyle(fontSize: 20)),
-              child: Row(
+              child: const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
-                  children: const [Icon(Icons.photo), Text("Open Gallery")]),
+                  children: [Icon(Icons.photo), Text("Open Gallery")]),
             ),
             const SizedBox(
               height: 30,
@@ -153,10 +156,10 @@ class _CameraState extends State<Camera> {
                     backgroundColor: const Color(0xffc07f00),
                     foregroundColor: Colors.white,
                     textStyle: const TextStyle(fontSize: 20)),
-                child: Row(
+                child: const Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     crossAxisAlignment: CrossAxisAlignment.center,
-                    children: const [
+                    children: [
                       Icon(Icons.android_outlined),
                       Text("Classify")
                     ])),
