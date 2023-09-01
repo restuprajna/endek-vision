@@ -80,6 +80,9 @@ class _CameraState extends State<Camera> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            const SizedBox(
+              height: 40,
+            ),
             Container(
               width: 200,
               height: 200,
