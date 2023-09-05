@@ -71,8 +71,24 @@ class AppDesc extends StatelessWidget {
       child: Container(
           alignment: Alignment.center,
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,
-            children: [Image.asset('assets/images/logo_endek_vision.png')],
+            children: [
+              Container(
+                  height: 500,
+                  width: double.infinity,
+                  // color: Colors.red,
+                  alignment: Alignment.center,
+                  child: Image.asset('assets/images/logo_endek_vision.png')),
+              Container(
+                // color: Colors.blue,
+                alignment: Alignment.bottomCenter,
+                child: const Text(
+                  "Beta version",
+                  style: TextStyle(fontStyle: FontStyle.italic),
+                ),
+              )
+            ],
           )),
     );
   }
