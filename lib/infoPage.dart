@@ -6,17 +6,74 @@ class MyInfoPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GridView.count(
+      padding: const EdgeInsets.all(10),
+      crossAxisSpacing: 10,
+      mainAxisSpacing: 10,
       crossAxisCount: 2,
+      childAspectRatio: 3 / 4,
       children: [
-        Column(
-          children: [
-            Container(
-              padding: const EdgeInsets.all(8),
-              color: Colors.red,
-              child: Image.asset("assets/images/endek_cakra.jpeg"),
-            ),
-            const Text("Endek Cakra")
-          ],
+        InkWell(
+          highlightColor: Colors.grey,
+          hoverColor: Colors.green,
+          customBorder: const RoundedRectangleBorder(
+              borderRadius: BorderRadius.all(Radius.circular(15))),
+          onTap: () {
+            debugPrint("The grid is clicked");
+          },
+          child: Column(
+            children: [
+              Container(
+                  alignment: Alignment.topCenter,
+                  // height: 200,
+                  padding: const EdgeInsets.all(8),
+                  color: Colors.red,
+                  child: Image.asset("assets/images/endek_cakra.jpeg")),
+              Expanded(
+                child: Container(
+                    alignment: Alignment.center,
+                    child: const Text("Endek Cakra")),
+              )
+            ],
+          ),
+        ),
+        Container(
+          decoration: BoxDecoration(
+              boxShadow: const [
+                BoxShadow(
+                    color: Colors.black,
+                    blurRadius: 10,
+                    blurStyle: BlurStyle.normal)
+              ],
+              borderRadius: BorderRadius.circular(12.0),
+              color: Colors.grey.shade300),
+          // color: Colors.red,
+          child: Column(
+            children: [
+              ClipRRect(
+                borderRadius: const BorderRadius.only(
+                    topLeft: Radius.circular(12),
+                    topRight: Radius.circular(12)),
+                child: Image.asset("assets/images/endek_cakra.jpeg"),
+              ),
+              Expanded(
+                  child: Container(
+                alignment: Alignment.center,
+                child: const Text("Encek Corak Cakra"),
+              ))
+            ],
+          ),
+        ),
+        Container(
+          color: Colors.red,
+          child: const Text("test"),
+        ),
+        Container(
+          color: Colors.red,
+          child: const Text("test"),
+        ),
+        Container(
+          color: Colors.red,
+          child: const Text("test"),
         ),
         Container(
           color: Colors.red,
