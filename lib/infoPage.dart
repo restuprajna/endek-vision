@@ -40,8 +40,8 @@ class MyInfoPage extends StatelessWidget {
           decoration: BoxDecoration(
               boxShadow: const [
                 BoxShadow(
-                    color: Colors.black,
-                    blurRadius: 10,
+                    color: Colors.grey,
+                    blurRadius: 5,
                     blurStyle: BlurStyle.normal)
               ],
               borderRadius: BorderRadius.circular(12.0),
