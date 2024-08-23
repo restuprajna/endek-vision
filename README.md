@@ -30,6 +30,9 @@ This project is a starting point for a Flutter application.
 <img src="assets/images/endek_uangkepeng.jpeg" alt="Description" width="300"/>
 
 ## Model Architecture
+
+Initially, I used transfer learning to build the model and evaluated three different architectures: VGG16, VGG19, and MobileNetV3. After thorough testing, I selected the most effective model for implementation in this app using TensorFlow Lite. Below are the evaluation results of the models after training.
+
 ## APP DEMO
 
 <a href="https://youtu.be/jmW2Vx81aC0">
