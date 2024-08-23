@@ -9,7 +9,7 @@ This project is a starting point for a Flutter application.
 ## Class
 
 1. Endek Cakra
-<img src="assets/images/endek_cakra.jpeg" alt="Description" width="300"/>
+<img src="assets/images/endek_cakra.jpeg" alt="Description" width="300" style="margin-left: 20px;"/>
 
 2. 
 3. 
