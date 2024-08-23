@@ -50,7 +50,7 @@ Initially, I used transfer learning to build the model and evaluated three diffe
 
 ## APP DEMO
 
-<a href="https://youtu.be/hOKI60cqvV8">
+<a href="https://youtu.be/jmW2Vx81aC0">
     <img src="https://img.youtube.com/vi/jmW2Vx81aC0/maxresdefault.jpg" alt="Watch the video" width="400"/>
 </a>
 
