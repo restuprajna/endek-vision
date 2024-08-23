@@ -7,6 +7,12 @@ Flutter App with Machine Learning Model for Image Recognition to Identify Baline
 This project is a starting point for a Flutter application.
 
 ## Class
+
+1. Endek Cakra
+![Description](./assets/images/endek_cakra.png)
+
+2. 
+3. 
 ## Model Architecture
 ## APP DEMO
 
