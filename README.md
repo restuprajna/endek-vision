@@ -10,4 +10,4 @@ This project is a starting point for a Flutter application.
 ## Model Architecture
 ## APP DEMO
 
-[![Video Title](https://img.youtube.com/vi/jmW2Vx81aC0&t=28s/0.jpg)](https://www.youtube.com/watch?v=jmW2Vx81aC0&t=28s)
+[![Video Title](https://img.youtube.com/vi/jmW2Vx81aC0&t/0.jpg)](https://www.youtube.com/watch?v=jmW2Vx81aC0&t)
