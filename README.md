@@ -11,8 +11,24 @@ This project is a starting point for a Flutter application.
 1. Endek Cakra
 <img src="assets/images/endek_cakra.jpeg" alt="Description" width="300"/>
 
-2. 
-3. 
+2. Endek Cemara
+<img src="assets/images/endek_cemara.jpeg" alt="Description" width="300"/>
+
+3. Endek Cempaka
+<img src="assets/images/endek_cempaka.jpeg" alt="Description" width="300"/>
+
+4. Endek Cepuk
+<img src="assets/images/endek_cepuk.jpeg" alt="Description" width="300"/>
+
+5. Endek Lubeng
+<img src="assets/images/endek_lubeng.jpeg" alt="Description" width="300"/>
+
+6. Endek Rangrang
+<img src="assets/images/endek_rangrang.jpeg" alt="Description" width="300"/>
+
+7. Endek Uang Kepeng
+<img src="assets/images/endek_uangkepeng.jpeg" alt="Description" width="300"/>
+
 ## Model Architecture
 ## APP DEMO
 
