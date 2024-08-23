@@ -34,6 +34,13 @@ In this project, the model is trained using seven distinct types of Balinese End
 
 Initially, I used transfer learning to build the model and evaluated three different architectures: VGG16, VGG19, and MobileNetV3. After thorough testing, I selected the most effective model for implementation in this app using TensorFlow Lite. Below are the evaluation results of the models after training.
 
+1. VGG16
+![Description](https://private-user-images.githubusercontent.com/73216938/360735163-2fe29532-5605-470d-b84b-fcf8676c6ba6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjQzODEwNjIsIm5iZiI6MTcyNDM4MDc2MiwicGF0aCI6Ii83MzIxNjkzOC8zNjA3MzUxNjMtMmZlMjk1MzItNTYwNS00NzBkLWI4NGItZmNmODY3NmM2YmE2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA4MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwODIzVDAyMzkyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRmNGMwM2E0YjQ5ZDE1OTY3NDdlNjBlYWM0ODhlOTI3ZmFkZTZjOTU1N2NlNDM4MzU1YTdjMTYzODkzMjlmOTUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.6B4zKluPikXpRlFmsWCRLamp5gj4u_Gp3RZDFOyGAwI)
+
+2. VGG19
+
+3. MobilenetV3Small
+
 ## APP DEMO
 
 <a href="https://youtu.be/jmW2Vx81aC0">
