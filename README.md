@@ -10,4 +10,4 @@ This project is a starting point for a Flutter application.
 ## Model Architecture
 ## APP DEMO
 
-<iframe width="560" height="315" src="<iframe width="981" height="623" src="https://www.youtube.com/embed/jmW2Vx81aC0" title="Demo Aplikasi Endek Vision" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>" frameborder="0" allowfullscreen></iframe>
+<iframe width="981" height="623" src="https://www.youtube.com/embed/jmW2Vx81aC0" title="Demo Aplikasi Endek Vision" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
