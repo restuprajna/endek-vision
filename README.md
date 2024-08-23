@@ -21,7 +21,7 @@ This project is a starting point for a Flutter application.
 <img src="assets/images/endek_cepuk.jpeg" alt="Description" width="300"/>
 
 5. Endek Lubeng
-<img src="assets/images/endek_lubeng.jpeg" alt="Description" width="300"/>
+<img src="assets/images/endek_lubeng.jpg" alt="Description" width="300"/>
 
 6. Endek Rangrang
 <img src="assets/images/endek_rangrang.jpeg" alt="Description" width="300"/>
