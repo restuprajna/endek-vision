@@ -1,12 +1,13 @@
 # endek_vision_app
 
-Flutter App with Machine Learning Model for Image Recognition to Identify Balinese Endek Fabric
-
-## Project Overview
-
-This project is a starting point for a Flutter application.
+This project features a Flutter app integrated with a machine learning model designed for image recognition. The app specifically identifies Balinese Endek fabric, leveraging advanced image classification techniques to accurately recognize and distinguish this traditional textile. Using TensorFlow Lite for model deployment, the app delivers real-time image analysis, allowing users to effortlessly identify and learn about Balinese Endek fabric through their mobile devices.
 
 ## Class
+
+Balinese Endek is a traditional Indonesian textile known for its intricate and vibrant patterns. Originating from Bali, this fabric is characterized by its unique weaving techniques and cultural significance. The patterns are often geometric and feature symbolic motifs that reflect Balinese heritage. The model leverages these distinct types of Endek to accurately recognize and classify this traditional fabric, providing users with valuable insights and information about each pattern through the app.
+
+In this project, the model is trained using seven distinct types of Balinese Endek fabric, which were personally collected for this purpose.
+
 
 1. Endek Cakra
 <img src="assets/images/endek_cakra.jpeg" alt="Description" width="300"/>
