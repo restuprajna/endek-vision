@@ -1,4 +1,4 @@
-# endek_vision_app
+# Endek Vision App
 
 This project features a Flutter app integrated with a machine learning model designed for image recognition. The app specifically identifies Balinese Endek fabric, leveraging advanced image classification techniques to accurately recognize and distinguish this traditional textile. Using TensorFlow Lite for model deployment, the app delivers real-time image analysis, allowing users to effortlessly identify and learn about Balinese Endek fabric through their mobile devices.
 
